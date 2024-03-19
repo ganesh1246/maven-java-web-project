@@ -64,4 +64,17 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+      <snapshotRepository>
+        <id>nexus</id>
+        <name>devops</name>
+		<url>http://3.88.106.179:8081/devopsmarkonda/repository/crm-projectsnapshot/</url>
+      </snapshotRepository>
+	  <repository>
+        <id>nexus</id>
+        <name>devops</name>
+    		<url>http://localhost:8081/repository/javawebapp/</url>
+      </repository>
+	
+   </distributionManagement>
 </project>
